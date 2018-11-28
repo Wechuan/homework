@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day18网络/day18网络.iml" filepath="$PROJECT_DIR$/day18网络/day18网络.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19设计模式/day19设计模式.iml" filepath="$PROJECT_DIR$/day19设计模式/day19设计模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework.iml" filepath="$PROJECT_DIR$/homework.iml" />
+    </modules>
+  </component>
+</project>
