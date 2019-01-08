@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度作业</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .title{
+            width: 483px;
+            height: 24px;
+            position: absolute;
+            margin: 19px 0 5px;
+
+            right:0;
+        }
+        .title>a{
+            float: left;
+            color: #333;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 24px;
+            margin-left: 20px;
+        }
+        .g1{
+            position: absolute;
+            right: 10px;
+            width: 60px;
+            height: 23px;
+            float: left;
+            color: #fff  !important;
+            background: #38f;
+            line-height: 24px;
+            font-size: 13px;
+            text-align: center;
+            overflow: hidden;
+            border-bottom: 1px solid #38f;
+            margin-left: 19px;
+            margin-right: 2px;
+            text-decoration: none ;
+        }
+        .title>a:hover{color: #3388ff}
+
+        .pitcure{
+            width: 270px;
+            height: 129px;
+            /*margin: 0 auto;*/
+           position: absolute;
+            margin:30px 0 0 630px;
+        }
+        .pitcure>img{
+            width: 100%;
+            height: 100%;
+        }
+        .text1{
+            height: 37px;
+            width: 641px;
+            border: 1px solid dodgerblue;
+            margin: 200px 0 0 450px;
+            position: absolute;
+        }
+        .text2{
+            height: 37px;
+            width: 100px;
+            background-color: #3388ff;
+            float: right;
+            color: white;
+            font-size: 16px;
+            line-height: 37px;
+            text-align: center;
+        }
+        .put{
+            width: 525px;
+            height: 35px;
+            line-height: 35px;
+            border: 0;
+            outline: 0;
+            margin-left: 10px;
+            font-size: 15px;
+        }
+        #div1{
+
+            margin: 19px 11px 5px;
+            width: 270px;
+            height: 129px;
+        }
+
+    </style>
+    <script>
+    function movIn() {
+        document.getElementById("div1").style.backgroundColor="red";
+    }
+    function movOut() {
+        document.getElementById("div1").style.backgroundColor="white";
+    }
+
+    </script>
+</head>
+<body>
+
+<div>
+
+
+    <div class="title">
+        <a href="#">新闻</a>
+        <a href="#">好123</a>
+        <a href="#">地图</a>
+        <a href="#">视频</a>
+        <a href="#">贴吧</a>
+        <a href="#">学术</a>
+        <a href="#" style="  font-weight: normal">登录</a>
+        <a href="#" style="  font-weight: normal">设置</a>
+        <a href="#" class="g1" onmouseover="movIn()" onmouseout="movOut()">更多产品</a>
+
+    </div>
+    <div class="pitcure">
+        <img src="1.gif">
+    </div>
+
+    <div class="text1">
+        <input type="text" class="put">
+        <div class="text2">
+            百度一下
+        </div>
+    </div>
+    <div id="div1" style="background-color: black;width: 62px;height: 680px ;float: right">
+
+    </div>
+</div>
+</body>
+</html>
